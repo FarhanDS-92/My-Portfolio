@@ -379,7 +379,7 @@ header .wrapper .heading button {
 .about .wrapper .aboutMe {
   height: 100%;
   width: 70%;
-  padding-left: 10px;
+  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,4 +407,52 @@ header .wrapper .heading button {
 }
 .about .wrapper .aboutMe .midParagraph {
   margin: 0;
+}
+
+.skills {
+  position: relative;
+  height: 430px;
+  margin: 0;
+  background-color: #DFE0FC;
+}
+.skills .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.skills .wrapper h2 {
+  height: 30%;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin: 0;
+}
+.skills .wrapper .iconSkills {
+  height: 30%;
+  width: 100%;
+}
+.skills .wrapper .iconSkills ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  list-style: none;
+}
+.skills .wrapper .iconSkills ul p {
+  margin: 0;
+  font-size: 1rem;
 }
