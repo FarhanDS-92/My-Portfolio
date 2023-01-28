@@ -39,9 +39,9 @@ header {
                         font-weight: 600;
                         padding: 10px;
                         border-radius: 20px;
-                        transition: 0.25ms;
                     }
                     a:hover, a:focus {
+                        transition: 0.25s;
                         background-color: $secondaryFontColor;
                         color: $primaryColor;
                         outline: none;
