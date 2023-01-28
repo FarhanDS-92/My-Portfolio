@@ -1,0 +1,57 @@
+@use './variables' as *;
+
+.projects {
+    position: relative;
+    background-color: $quaternaryColor;
+    padding-top: 30px;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-family: $titleFont;
+            font-size: 3rem;
+            color: $primaryColor;
+        }
+
+        ul {
+            list-style: none;
+            width: 100%;
+
+            .projectPokemon{
+                display: flex;
+                flex-direction: row;
+
+                img {
+                    height: 300px;
+                }
+
+                article {
+                    padding: 40px 0 0 30px;
+
+                    h3 {
+                        font-size: 2rem;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                        font-weight: 700;
+                    }
+
+                    .codeSkill {
+                        font-size: 1rem;
+                        color: $primaryColor;
+                        font-weight: 700;
+                    }
+
+                    button {
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

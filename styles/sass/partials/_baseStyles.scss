@@ -11,3 +11,12 @@ html {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+button {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $primaryFontColor;
+    background-color: $quinaryColor;
+    border: none;
+    padding: 15px 35px;
+}

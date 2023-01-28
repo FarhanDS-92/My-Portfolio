@@ -247,6 +247,15 @@ html {
   margin: 0 auto;
 }
 
+button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #15181a;
+  background-color: #EEAF98;
+  border: none;
+  padding: 15px 35px;
+}
+
 header {
   position: relative;
   height: 750px;
@@ -339,12 +348,6 @@ header .wrapper .heading p {
   margin: 0;
 }
 header .wrapper .heading button {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #15181a;
-  background-color: #EEAF98;
-  border: none;
-  padding: 15px 35px;
   margin-top: 30px;
 }
 
@@ -505,4 +508,62 @@ header .wrapper .heading button {
   -webkit-transition: 0.25s;
   transition: 0.25s;
   color: #f6820d;
+}
+
+.projects {
+  position: relative;
+  background-color: #F2F4F5;
+  padding-top: 30px;
+}
+.projects .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projects .wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #424B6D;
+}
+.projects .wrapper ul {
+  list-style: none;
+  width: 100%;
+}
+.projects .wrapper ul .projectPokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.projects .wrapper ul .projectPokemon img {
+  height: 300px;
+}
+.projects .wrapper ul .projectPokemon article {
+  padding: 40px 0 0 30px;
+}
+.projects .wrapper ul .projectPokemon article h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+.projects .wrapper ul .projectPokemon article p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.projects .wrapper ul .projectPokemon article .codeSkill {
+  font-size: 1rem;
+  color: #424B6D;
+  font-weight: 700;
+}
+.projects .wrapper ul .projectPokemon article button {
+  margin-right: 30px;
 }
