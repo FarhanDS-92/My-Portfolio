@@ -567,3 +567,117 @@ header .wrapper .heading button {
 .projects .wrapper ul .projectPokemon article button {
   margin-right: 30px;
 }
+
+.contact {
+  position: relative;
+  height: 750px;
+  background-color: #5169BD;
+}
+.contact .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 30px;
+}
+.contact .wrapper .contactIcons {
+  font-size: 1.5rem;
+  color: #EEAF98;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact .wrapper .contactIcons i {
+  padding-right: 10px;
+}
+.contact .wrapper .contactIcons .devicon-linkedin-plain:hover, .contact .wrapper .contactIcons .devicon-linkedin-plain:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #FFFFFF;
+}
+.contact .wrapper .contactIcons .devicon-github-original:hover, .contact .wrapper .contactIcons .devicon-github-original:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #a4048b;
+}
+.contact .wrapper .contactIcons .fa-envelope:hover, .contact .wrapper .contactIcons .fa-envelope:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #c71610;
+}
+.contact .wrapper p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.contact .wrapper .form {
+  width: 50%;
+}
+.contact .wrapper .form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contact .wrapper .form form input {
+  width: 100%;
+}
+.contact .wrapper .form form textarea {
+  width: 100%;
+}
+.contact .wrapper .form form label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact .wrapper .form form button {
+  margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+footer {
+  height: 50px;
+  background-color: #424B6D;
+}
+footer .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .wrapper p {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+}
