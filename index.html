@@ -13,6 +13,9 @@
 	<!-- DevIcon Link -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
+	<!-- Font Awesome Icon Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<!-- Style Sheet link -->
 	<link rel="stylesheet" href="./styles/styles.css">
 
@@ -71,7 +74,6 @@
 		</section> <!--End of About Section-->
 
 
-
 		<section class="skills"> <!--Start of Skills Section-->
 			<div class="wrapper"> <!--Start of Wrapper-->
 
@@ -122,10 +124,9 @@
 
 					</ul> <!--End of unordered list-->
 				</div><!--End of iconSkills-->
-
+				
 			</div>	<!--End of Wrapper-->
 		</section> <!--End of Skills Section-->
-
 
 
 		<section id="projects" class="projects"> <!--Start of Projects Section-->
@@ -153,16 +154,48 @@
 		</section> <!--End of Projects Section-->
 
 
-
 		<section id="contact" class="contact"> <!--Start of Contact Section-->
-			<h2>Get In Touch</h2>
+			<div class="wrapper"> <!--Start of Wrapper-->
+
+				<h2>Get In Touch</h2>
+
+				<div class="contactIcons"> <!--Start of Contact Icons-->
+
+					<i class="devicon-linkedin-plain"></i>
+					<i class="devicon-github-original"></i>
+					<i class="fa-solid fa-envelope"></i>
+
+				</div> <!--End of Contact Icons-->
+
+				<p>You can send me an email here, just fill out the form below! </p>
+
+				<div class="form"> <!--Start of Form-->
+					<form action="" method="get"> <!--Start of Form-->
+						
+							<label for="name">NAME</label>
+							<input type="text" id="name" name="userName">
+
+							<label for="email">EMAIL</label>
+							<input type="email" name="userEmail" id="email">
+
+							<label for="message">MESSAGE</label>
+							<textarea name="userMessage" id="message" cols="30" rows="10"></textarea>
+
+							<button type="submit">Submit</button>
+
+					</form> <!--End of Form-->
+				</div> <!--End of Form-->
+
+			</div> <!--End of Wrapper-->
 		</section> <!--End of Contact Section-->
 	</main> <!--End Of Main-->
 
 
 
 	<footer> <!--Start Of Footer-->
-		<p>Built in 2023 By Farhan D. Siddiqi</p>
+		<div class="wrapper"> <!--Start of Wrapper-->
+			<p>Built  in  2023  By  Farhan D. Siddiqi</p>
+		</div> <!--End of Wrapper-->
 	</footer> <!--End Of Footer-->
 </body>
 </html>
