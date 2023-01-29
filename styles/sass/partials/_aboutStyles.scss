@@ -2,16 +2,16 @@
 
 .about{
     position: relative;
-    height: 500px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
     .wrapper{
-        
-        height: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
 
         .pic {
-            height: 100%;
             width: 30%;
             display: flex;
             justify-content: center;
@@ -24,23 +24,23 @@
         }
 
         .aboutMe {
-            height: 100%;
             width: 70%;
-            padding-left: 20px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
 
             h2 {
-              font-family: $titleFont; 
-              color: $secondaryColor;
-              font-size: 3rem; 
-              margin: 0;
+                align-self: center;
+                font-family: $titleFont; 
+                color: $secondaryColor;
+                font-size: 3rem; 
+                margin: 0;
             }
 
             p {
                 font-family: $bodyFont;
+                font-weight: 600;
                 font-size: 1rem;
                 text-indent: 1%;
             }

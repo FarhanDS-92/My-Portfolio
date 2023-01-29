@@ -299,9 +299,9 @@ header .wrapper nav ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 10px;
 }
 header .wrapper nav ul li {
-  width: 15%;
   list-style: none;
 }
 header .wrapper nav ul li a {
@@ -353,17 +353,23 @@ header .wrapper .heading button {
 
 .about {
   position: relative;
-  height: 500px;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .about .wrapper {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 .about .wrapper .pic {
-  height: 100%;
   width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -380,9 +386,7 @@ header .wrapper .heading button {
   border-radius: 50%;
 }
 .about .wrapper .aboutMe {
-  height: 100%;
   width: 70%;
-  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,6 +402,8 @@ header .wrapper .heading button {
           align-items: flex-start;
 }
 .about .wrapper .aboutMe h2 {
+  -ms-flex-item-align: center;
+      align-self: center;
   font-family: "Playfair Display", serif;
   color: #5169BD;
   font-size: 3rem;
@@ -405,6 +411,7 @@ header .wrapper .heading button {
 }
 .about .wrapper .aboutMe p {
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 1rem;
   text-indent: 1%;
 }
@@ -414,12 +421,12 @@ header .wrapper .heading button {
 
 .skills {
   position: relative;
-  height: 430px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: 0;
   background-color: #DFE0FC;
 }
 .skills .wrapper {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -435,28 +442,29 @@ header .wrapper .heading button {
           align-items: center;
 }
 .skills .wrapper h2 {
-  height: 30%;
+  text-align: center;
+  width: 100%;
   font-family: "Playfair Display", serif;
   font-size: 3rem;
-  margin: 0;
+  margin: 0 0 50px 0;
 }
 .skills .wrapper .iconSkills {
-  height: 30%;
   width: 100%;
 }
 .skills .wrapper .iconSkills ul {
   margin: 0;
+  padding: 0;
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  text-align: center;
-  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
 }
 .skills .wrapper .iconSkills ul i {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #15181a;
 }
 .skills .wrapper .iconSkills ul .devicon-html5-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-html5-plain-wordmark:focus {
@@ -533,6 +541,7 @@ header .wrapper .heading button {
   color: #424B6D;
 }
 .projects .wrapper ul {
+  padding: 0;
   list-style: none;
   width: 100%;
 }
@@ -555,22 +564,29 @@ header .wrapper .heading button {
   font-size: 2rem;
   margin: 0;
 }
-.projects .wrapper ul .projectPokemon article p {
-  font-size: 0.8rem;
-  font-weight: 700;
-}
 .projects .wrapper ul .projectPokemon article .codeSkill {
   font-size: 1rem;
   color: #424B6D;
   font-weight: 700;
 }
-.projects .wrapper ul .projectPokemon article button {
-  margin-right: 30px;
+.projects .wrapper ul .projectPokemon article p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.projects .wrapper ul .projectPokemon article .buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px;
 }
 
 .contact {
   position: relative;
-  height: 750px;
+  height: 650px;
   background-color: #5169BD;
 }
 .contact .wrapper {
@@ -680,4 +696,224 @@ footer .wrapper p {
   font-family: "Source Sans Pro", sans-serif;
   color: #FFFFFF;
   font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  header .wrapper .heading h1 {
+    font-size: 4rem;
+  }
+  header .wrapper .heading p {
+    font-size: 1.25rem;
+  }
+  .about .wrapper .pic img {
+    height: 200px;
+    width: 200px;
+  }
+  .about .wrapper .aboutMe h2 {
+    font-size: 2rem;
+  }
+  .about .wrapper .aboutMe p {
+    font-size: 0.8rem;
+  }
+  .skills .wrapper h2 {
+    font-size: 2rem;
+  }
+  .skills .wrapper .iconSkills ul i {
+    font-size: 3rem;
+  }
+  .projects .wrapper h2 {
+    font-size: 2rem;
+  }
+  .projects .wrapper ul .projectPokemon img {
+    height: 250px;
+  }
+  .projects .wrapper ul .projectPokemon article h3 {
+    font-size: 1.5rem;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    font-size: 0.85rem;
+  }
+  .projects .wrapper ul .projectPokemon article .buttons button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+  .contact .wrapper h2 {
+    font-size: 2rem;
+  }
+  .contact .wrapper p {
+    font-size: 0.8rem;
+  }
+  .contact .wrapper .form {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    height: 650px;
+  }
+  header .wrapper nav ul li a {
+    font-size: 1rem;
+  }
+  header .wrapper .heading h1 {
+    font-size: 3rem;
+  }
+  header .wrapper .heading p {
+    font-size: 1rem;
+  }
+  header .wrapper .heading button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+  .skills .wrapper .iconSkills ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects .wrapper ul .projectPokemon img {
+    height: 200px;
+  }
+  .projects .wrapper ul .projectPokemon article {
+    padding: 0;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    margin: 0;
+  }
+  .contact .wrapper h2 {
+    font-size: 2rem;
+  }
+  .contact .wrapper .form {
+    width: 70%;
+  }
+  .contact .wrapper .form form label {
+    font-size: 0.8rem;
+  }
+  .contact .wrapper .form form button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 680px) {
+  header {
+    height: 500px;
+  }
+  header .wrapper nav ul li a {
+    font-size: 0.8rem;
+  }
+  header .wrapper .heading h1 {
+    font-size: 2rem;
+  }
+  header .wrapper .heading p {
+    font-size: 1rem;
+  }
+  header .wrapper .heading button {
+    padding: 5px 15px;
+  }
+  .about .wrapper .pic img {
+    height: 100px;
+    width: 100px;
+  }
+  .about .wrapper .aboutMe p {
+    font-size: 0.6rem;
+  }
+  .projects .wrapper ul .projectPokemon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projects .wrapper ul .projectPokemon img {
+    height: 100px;
+    width: 200px;
+  }
+  .projects .wrapper ul .projectPokemon article {
+    padding: 0;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    margin: 0;
+  }
+  .projects .wrapper ul .projectPokemon article .buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .wrapper .form {
+    width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  header {
+    height: 400px;
+  }
+  header .wrapper .heading h1 {
+    font-size: 1.95rem;
+  }
+  header .wrapper .heading p {
+    font-size: 0.8rem;
+  }
+  header .wrapper .heading button {
+    padding: 5px 15px;
+  }
+  .about .wrapper .aboutMe h2 {
+    font-size: 1.95rem;
+  }
+  .skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .skills .wrapper h2 {
+    font-size: 1.95rem;
+  }
+  .skills .wrapper .iconSkills ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects .wrapper h2 {
+    font-size: 1.95rem;
+  }
+  .projects .wrapper ul .projectPokemon article h3 {
+    font-size: 1.25rem;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    font-size: 0.8rem;
+  }
+  .projects .wrapper ul .projectPokemon article p {
+    font-size: 0.7rem;
+  }
+  .contact .wrapper .form {
+    width: 100%;
+  }
 }

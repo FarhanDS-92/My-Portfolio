@@ -17,6 +17,7 @@
         }
 
         ul {
+            padding: 0;
             list-style: none;
             width: 100%;
 
@@ -36,19 +37,22 @@
                         margin: 0;
                     }
 
-                    p {
-                        font-size: 0.8rem;
-                        font-weight: 700;
-                    }
-
                     .codeSkill {
                         font-size: 1rem;
                         color: $primaryColor;
                         font-weight: 700;
                     }
 
-                    button {
-                        margin-right: 30px;
+                    p {
+                        font-size: 0.8rem;
+                        font-weight: 700;
+                    }
+
+                    .buttons {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+                        gap: 20px;
                     }
                 }
             }
