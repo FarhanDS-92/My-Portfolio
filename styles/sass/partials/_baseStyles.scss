@@ -19,4 +19,11 @@ button {
     background-color: $quinaryColor;
     border: none;
     padding: 15px 35px;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    transition: 0.25s;
+    color: $quinaryColor;
+    background-color: $primaryFontColor;
 }

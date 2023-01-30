@@ -168,25 +168,37 @@
 
 					<i class="devicon-linkedin-plain"></i>
 					<i class="devicon-github-original"></i>
-					<i class="fa-solid fa-envelope"></i>
+					<i class="devicon-twitter-original"></i>
 
 				</div> <!--End of Contact Icons-->
 
 				<p>You can send me an email here, just fill out the form below! </p>
 
 				<div class="form"> <!--Start of Form-->
-					<form action="" method="get"> <!--Start of Form-->
-						
-							<label for="name">NAME</label>
-							<input type="text" id="name" name="userName">
+					<form action="https://formsubmit.co/farhandanishsiddiqi@gmail.com" method="POST"> <!--Start of Form-->
 
-							<label for="email">EMAIL</label>
-							<input type="email" name="userEmail" id="email">
+						<!-- Start of Honeypot -->
+						<input type="text" name="_honey" style="display: none;">
+						<!-- End of Honeypot -->
 
-							<label for="message">MESSAGE</label>
-							<textarea name="userMessage" id="message" cols="30" rows="5"></textarea>
+						<!-- Start of Disable Captcha -->
+						<input type="hidden" name="_captcha" value="false">
+						<!-- End of Disable Captcha -->
 
-							<button type="submit">Submit</button>
+						<!-- Start of Email Sent! -->
+						<input type="hidden" name="_next" value="https://farhandev.ca/email_sent.html">
+						<!-- End of Email Sent! -->
+
+						<label for="name">NAME</label>
+						<input type="text" id="name" name="userName">
+
+						<label for="email">EMAIL</label>
+						<input type="email" id="email" name="userEmail" >
+
+						<label for="message">MESSAGE</label>
+						<textarea id="message" name="userMessage" cols="30" rows="5"></textarea>
+
+						<button type="submit">Submit</button>
 
 					</form> <!--End of Form-->
 				</div> <!--End of Form-->
