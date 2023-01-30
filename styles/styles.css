@@ -895,3 +895,100 @@ footer .wrapper p {
     width: 100%;
   }
 }
+.homeSuccess {
+  position: relative;
+  height: 40vh;
+  background-color: #5169BD;
+}
+.homeSuccess .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.homeSuccess .wrapper .success {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 5.2rem;
+}
+
+.mainSuccess {
+  position: relative;
+  height: 50vh;
+  background-color: #5169BD;
+}
+.mainSuccess .contactSuccess {
+  height: 100%;
+  width: 100%;
+}
+.mainSuccess .contactSuccess .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.mainSuccess .contactSuccess .wrapper .formSuccess {
+  height: 10%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.mainSuccess .contactSuccess .wrapper .formSuccess p {
+  margin: 0;
+}
+.mainSuccess .contactSuccess .wrapper .formSuccess p a {
+  font-size: 1.25rem;
+  color: #15181a;
+  font-weight: 600;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footerSuccess {
+  position: relative;
+  height: 10vh;
+  background-color: #424B6D;
+}
+
+@media (max-width: 1361px) {
+  .homeSuccess .wrapper .success {
+    font-size: 4rem;
+  }
+  .mainSuccess .contactSuccess .wrapper .formSuccess {
+    font-size: 1rem;
+  }
+  .mainSuccess .contactSuccess .wrapper .formSuccess p a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .homeSuccess .wrapper .success {
+    font-size: 3rem;
+  }
+  .mainSuccess .contactSuccess .wrapper .formSuccess {
+    padding-top: 10px;
+    font-size: 0.8rem;
+  }
+  .mainSuccess .contactSuccess .wrapper .formSuccess p a {
+    font-size: 0.8rem;
+  }
+}

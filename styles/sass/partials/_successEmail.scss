@@ -1,0 +1,108 @@
+@use './variables' as *;
+
+.homeSuccess {
+    position: relative;
+    height: 40vh;
+    background-color: $secondaryColor;
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        
+
+        .success {
+            position: absolute;
+            bottom: 0;
+            margin: 0;
+            font-family: $titleFont;
+            font-size: 5.2rem;
+        }
+    }
+}
+
+.mainSuccess {
+    position: relative;
+    height: 50vh;
+    background-color: $secondaryColor;
+
+    .contactSuccess {
+        height: 100%;
+        width: 100%;
+
+        .wrapper {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+            
+
+            .formSuccess {
+                height: 10%;
+                font-family: $bodyFont;
+                font-size: 1.25rem;
+                color: $secondaryFontColor;
+                font-weight: 600;
+
+                p {
+                    margin: 0;
+
+                    a{
+                        font-size: 1.25rem;
+                        color: $primaryFontColor;
+                        font-weight: 600;
+                        list-style: none;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footerSuccess{
+    position: relative;
+    height: 10vh;
+    background-color: $primaryColor;
+}
+
+@media (max-width: 1361px) {
+
+    .homeSuccess .wrapper .success {
+        font-size: 4rem;
+    }
+
+    .mainSuccess .contactSuccess .wrapper {
+
+        .formSuccess {
+            font-size: 1rem;
+
+            p a {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .homeSuccess .wrapper .success {
+            font-size: 3rem;
+        }
+    
+    .mainSuccess .contactSuccess .wrapper {
+        
+        .formSuccess {
+            padding-top: 10px;
+            font-size: 0.8rem;
+
+            p a {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
