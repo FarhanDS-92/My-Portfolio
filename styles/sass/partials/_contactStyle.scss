@@ -29,19 +29,9 @@
                 padding-right: 10px;
             }
 
-            .devicon-linkedin-plain:hover, .devicon-linkedin-plain:focus {
+            i:hover, i:focus {
                 transition: 0.25s;
                 color: $secondaryFontColor;
-            }
-
-            .devicon-github-original:hover, .devicon-github-original:focus {
-                transition: 0.25s;
-                color: #a4048b;
-            }
-
-            .fa-envelope:hover, .fa-envelope:focus {
-                transition: 0.25s;
-                color: #c71610;
             }
         }
 

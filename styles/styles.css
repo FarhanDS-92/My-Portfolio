@@ -254,6 +254,14 @@ button {
   background-color: #EEAF98;
   border: none;
   padding: 15px 35px;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #EEAF98;
+  background-color: #15181a;
 }
 
 header {
@@ -382,7 +390,7 @@ header .wrapper .heading button {
           align-items: center;
 }
 .about .wrapper .pic img {
-  height: 350px;
+  height: 300px;
   border-radius: 50%;
 }
 .about .wrapper .aboutMe {
@@ -467,54 +475,34 @@ header .wrapper .heading button {
   font-size: 3rem;
   color: #15181a;
 }
-.skills .wrapper .iconSkills ul .devicon-html5-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-html5-plain-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-html5-plain-wordmark {
   color: #e34c26;
 }
-.skills .wrapper .iconSkills ul .devicon-css3-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-css3-plain-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-css3-plain-wordmark {
   color: #264de4;
 }
-.skills .wrapper .iconSkills ul .devicon-sass-original:hover, .skills .wrapper .iconSkills ul .devicon-sass-original:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-sass-original {
   color: #cc6699;
 }
-.skills .wrapper .iconSkills ul .devicon-javascript-plain:hover, .skills .wrapper .iconSkills ul .devicon-javascript-plain:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-javascript-plain {
   color: #f0db4f;
 }
-.skills .wrapper .iconSkills ul .devicon-jquery-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-jquery-plain-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-jquery-plain-wordmark {
   color: #0769ad;
 }
-.skills .wrapper .iconSkills ul .devicon-nodejs-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-nodejs-plain-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-nodejs-plain-wordmark {
   color: #3c873a;
 }
-.skills .wrapper .iconSkills ul .devicon-react-original-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-react-original-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  color: #88dded;
+.skills .wrapper .iconSkills ul .devicon-react-original-wordmark {
+  color: #264de4;
 }
-.skills .wrapper .iconSkills ul .devicon-git-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-git-plain-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-git-plain-wordmark {
   color: #f34f29;
 }
-.skills .wrapper .iconSkills ul .devicon-github-original-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-github-original-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-github-original-wordmark {
   color: #a4048b;
 }
-.skills .wrapper .iconSkills ul .devicon-firebase-plain-wordmark:hover, .skills .wrapper .iconSkills ul .devicon-firebase-plain-wordmark:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+.skills .wrapper .iconSkills ul .devicon-firebase-plain-wordmark {
   color: #f6820d;
 }
 
@@ -620,20 +608,10 @@ header .wrapper .heading button {
 .contact .wrapper .contactIcons i {
   padding-right: 10px;
 }
-.contact .wrapper .contactIcons .devicon-linkedin-plain:hover, .contact .wrapper .contactIcons .devicon-linkedin-plain:focus {
+.contact .wrapper .contactIcons i:hover, .contact .wrapper .contactIcons i:focus {
   -webkit-transition: 0.25s;
   transition: 0.25s;
   color: #FFFFFF;
-}
-.contact .wrapper .contactIcons .devicon-github-original:hover, .contact .wrapper .contactIcons .devicon-github-original:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  color: #a4048b;
-}
-.contact .wrapper .contactIcons .fa-envelope:hover, .contact .wrapper .contactIcons .fa-envelope:focus {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  color: #c71610;
 }
 .contact .wrapper p {
   font-size: 1rem;
