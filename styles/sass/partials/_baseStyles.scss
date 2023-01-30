@@ -1,0 +1,29 @@
+@use './variables' as *;
+
+html {
+    font-size: 125%;
+    font-family: $bodyFont;
+    color: $primaryFontColor;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $primaryFontColor;
+    background-color: $quinaryColor;
+    border: none;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    transition: 0.25s;
+    color: $quinaryColor;
+    background-color: $primaryFontColor;
+}

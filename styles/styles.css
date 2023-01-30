@@ -1,0 +1,897 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  font-size: 125%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #15181a;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #15181a;
+  background-color: #EEAF98;
+  border: none;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #EEAF98;
+  background-color: #15181a;
+}
+
+header {
+  position: relative;
+  height: 750px;
+  background-color: #424B6D;
+  color: #FFFFFF;
+}
+header .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+header .wrapper nav {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .wrapper nav ul {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+header .wrapper nav ul li {
+  list-style: none;
+}
+header .wrapper nav ul li a {
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 20px;
+}
+header .wrapper nav ul li a:hover, header .wrapper nav ul li a:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background-color: #FFFFFF;
+  color: #424B6D;
+  outline: none;
+  cursor: pointer;
+}
+header .wrapper .heading {
+  width: 100%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .wrapper .heading h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 5.2rem;
+  margin: -50px 0 0 0;
+}
+header .wrapper .heading p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+header .wrapper .heading button {
+  margin-top: 30px;
+}
+
+.about {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.about .wrapper .pic {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .wrapper .pic img {
+  height: 300px;
+  border-radius: 50%;
+}
+.about .wrapper .aboutMe {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.about .wrapper .aboutMe h2 {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-family: "Playfair Display", serif;
+  color: #5169BD;
+  font-size: 3rem;
+  margin: 0;
+}
+.about .wrapper .aboutMe p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-indent: 1%;
+}
+.about .wrapper .aboutMe .midParagraph {
+  margin: 0;
+}
+
+.skills {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: #DFE0FC;
+}
+.skills .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.skills .wrapper h2 {
+  text-align: center;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin: 0 0 50px 0;
+}
+.skills .wrapper .iconSkills {
+  width: 100%;
+}
+.skills .wrapper .iconSkills ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.skills .wrapper .iconSkills ul i {
+  font-size: 3rem;
+  color: #15181a;
+}
+.skills .wrapper .iconSkills ul .devicon-html5-plain-wordmark {
+  color: #e34c26;
+}
+.skills .wrapper .iconSkills ul .devicon-css3-plain-wordmark {
+  color: #264de4;
+}
+.skills .wrapper .iconSkills ul .devicon-sass-original {
+  color: #cc6699;
+}
+.skills .wrapper .iconSkills ul .devicon-javascript-plain {
+  color: #f0db4f;
+}
+.skills .wrapper .iconSkills ul .devicon-jquery-plain-wordmark {
+  color: #0769ad;
+}
+.skills .wrapper .iconSkills ul .devicon-nodejs-plain-wordmark {
+  color: #3c873a;
+}
+.skills .wrapper .iconSkills ul .devicon-react-original-wordmark {
+  color: #264de4;
+}
+.skills .wrapper .iconSkills ul .devicon-git-plain-wordmark {
+  color: #f34f29;
+}
+.skills .wrapper .iconSkills ul .devicon-github-original-wordmark {
+  color: #a4048b;
+}
+.skills .wrapper .iconSkills ul .devicon-firebase-plain-wordmark {
+  color: #f6820d;
+}
+
+.projects {
+  position: relative;
+  background-color: #F2F4F5;
+  padding-top: 30px;
+}
+.projects .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projects .wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #424B6D;
+}
+.projects .wrapper ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+.projects .wrapper ul .projectPokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.projects .wrapper ul .projectPokemon img {
+  height: 300px;
+}
+.projects .wrapper ul .projectPokemon article {
+  padding: 40px 0 0 30px;
+}
+.projects .wrapper ul .projectPokemon article h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+.projects .wrapper ul .projectPokemon article .codeSkill {
+  font-size: 1rem;
+  color: #424B6D;
+  font-weight: 700;
+}
+.projects .wrapper ul .projectPokemon article p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.projects .wrapper ul .projectPokemon article .buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px;
+}
+
+.contact {
+  position: relative;
+  height: 650px;
+  background-color: #5169BD;
+}
+.contact .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 30px;
+}
+.contact .wrapper .contactIcons {
+  font-size: 1.5rem;
+  color: #EEAF98;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact .wrapper .contactIcons i {
+  padding-right: 10px;
+}
+.contact .wrapper .contactIcons i:hover, .contact .wrapper .contactIcons i:focus {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #FFFFFF;
+}
+.contact .wrapper p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.contact .wrapper .form {
+  width: 50%;
+}
+.contact .wrapper .form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contact .wrapper .form form input {
+  width: 100%;
+}
+.contact .wrapper .form form textarea {
+  width: 100%;
+}
+.contact .wrapper .form form label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact .wrapper .form form button {
+  margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+footer {
+  height: 50px;
+  background-color: #424B6D;
+}
+footer .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .wrapper p {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  header .wrapper .heading h1 {
+    font-size: 4rem;
+  }
+  header .wrapper .heading p {
+    font-size: 1.25rem;
+  }
+  .about .wrapper .pic img {
+    height: 200px;
+    width: 200px;
+  }
+  .about .wrapper .aboutMe h2 {
+    font-size: 2rem;
+  }
+  .about .wrapper .aboutMe p {
+    font-size: 0.8rem;
+  }
+  .skills .wrapper h2 {
+    font-size: 2rem;
+  }
+  .skills .wrapper .iconSkills ul i {
+    font-size: 3rem;
+  }
+  .projects .wrapper h2 {
+    font-size: 2rem;
+  }
+  .projects .wrapper ul .projectPokemon img {
+    height: 250px;
+  }
+  .projects .wrapper ul .projectPokemon article h3 {
+    font-size: 1.5rem;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    font-size: 0.85rem;
+  }
+  .projects .wrapper ul .projectPokemon article .buttons button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+  .contact .wrapper h2 {
+    font-size: 2rem;
+  }
+  .contact .wrapper p {
+    font-size: 0.8rem;
+  }
+  .contact .wrapper .form {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    height: 650px;
+  }
+  header .wrapper nav ul li a {
+    font-size: 1rem;
+  }
+  header .wrapper .heading h1 {
+    font-size: 3rem;
+  }
+  header .wrapper .heading p {
+    font-size: 1rem;
+  }
+  header .wrapper .heading button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+  .skills .wrapper .iconSkills ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects .wrapper ul .projectPokemon img {
+    height: 200px;
+  }
+  .projects .wrapper ul .projectPokemon article {
+    padding: 0;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    margin: 0;
+  }
+  .contact .wrapper h2 {
+    font-size: 2rem;
+  }
+  .contact .wrapper .form {
+    width: 70%;
+  }
+  .contact .wrapper .form form label {
+    font-size: 0.8rem;
+  }
+  .contact .wrapper .form form button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 680px) {
+  header {
+    height: 500px;
+  }
+  header .wrapper nav ul li a {
+    font-size: 0.8rem;
+  }
+  header .wrapper .heading h1 {
+    font-size: 2rem;
+  }
+  header .wrapper .heading p {
+    font-size: 1rem;
+  }
+  header .wrapper .heading button {
+    padding: 5px 15px;
+  }
+  .about .wrapper .pic img {
+    height: 100px;
+    width: 100px;
+  }
+  .about .wrapper .aboutMe p {
+    font-size: 0.6rem;
+  }
+  .projects .wrapper ul .projectPokemon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projects .wrapper ul .projectPokemon img {
+    height: 100px;
+    width: 200px;
+  }
+  .projects .wrapper ul .projectPokemon article {
+    padding: 0;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    margin: 0;
+  }
+  .projects .wrapper ul .projectPokemon article .buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .wrapper .form {
+    width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  header {
+    height: 400px;
+  }
+  header .wrapper .heading h1 {
+    font-size: 1.95rem;
+  }
+  header .wrapper .heading p {
+    font-size: 0.8rem;
+  }
+  header .wrapper .heading button {
+    padding: 5px 15px;
+  }
+  .about .wrapper .aboutMe h2 {
+    font-size: 1.95rem;
+  }
+  .skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .skills .wrapper h2 {
+    font-size: 1.95rem;
+  }
+  .skills .wrapper .iconSkills ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects .wrapper h2 {
+    font-size: 1.95rem;
+  }
+  .projects .wrapper ul .projectPokemon article h3 {
+    font-size: 1.25rem;
+  }
+  .projects .wrapper ul .projectPokemon article .codeSkill {
+    font-size: 0.8rem;
+  }
+  .projects .wrapper ul .projectPokemon article p {
+    font-size: 0.7rem;
+  }
+  .contact .wrapper .form {
+    width: 100%;
+  }
+}

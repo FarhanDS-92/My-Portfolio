@@ -1,0 +1,20 @@
+@use './variables' as *;
+
+footer {
+    height: 50px;
+    background-color: $primaryColor;
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 0;
+            font-family: $bodyFont;
+            color: $secondaryFontColor;
+            font-weight: 600;
+        }
+    }
+}

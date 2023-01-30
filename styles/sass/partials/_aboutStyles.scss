@@ -1,0 +1,54 @@
+@use './variables' as *;
+
+.about{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .pic {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 300px;
+                border-radius: 50%;
+            }
+        }
+
+        .aboutMe {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            h2 {
+                align-self: center;
+                font-family: $titleFont; 
+                color: $secondaryColor;
+                font-size: 3rem; 
+                margin: 0;
+            }
+
+            p {
+                font-family: $bodyFont;
+                font-weight: 600;
+                font-size: 1rem;
+                text-indent: 1%;
+            }
+
+            .midParagraph{
+                margin: 0;
+            }
+        }
+
+    }
+}

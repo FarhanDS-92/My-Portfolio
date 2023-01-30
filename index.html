@@ -4,10 +4,215 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+	<!-- DevIcon Link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+	<!-- Font Awesome Icon Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Style Sheet link -->
 	<link rel="stylesheet" href="./styles/styles.css">
-	<title>Document</title>
+
+	<title>Farhan Dev</title>
+
 </head>
 <body>
-	<h1>In construction...</h1>
+	<header id="home"> <!--Start of Header-->
+		<div class="wrapper"> <!--Start of Wrapper-->
+
+			<nav> <!-- Start of Nav-->
+				<ul class="clearfix"> <!-- Start of UL-->
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul><!--End of UL-->
+			</nav> <!--End of Nav-->
+
+
+			<div class="heading"> <!--Start of Heading-->
+				<h1>Farhan D. Siddiqi</h1>
+				<p>Toronto Based Web Developer</p>
+				<button>Get In Touch</button>
+			</div> <!--End of Heading-->
+
+		</div> <!--End of Wrapper-->
+	</header> <!--End of Header-->
+
+
+
+	<main> <!-- Start Of Main-->
+		<section id="about" class="about"> <!--Start of About Section-->
+			<div class="wrapper"> <!--Start of Wrapper-->
+
+				<div class="pic"> <!--Start of Pic-->
+					<img src="./assests/ProfilePic.jpg" alt="Headshot picture of the Web Developer">
+				</div> <!--End of Pic-->
+
+
+				<div class="aboutMe"> <!--Start of About me-->
+					<h2>About Me</h2>
+
+					<p>Hello World! I'm Farhan D. Siddiqi, a Front-End Web Developer based out of Toronto. From helping people with their 
+					banking needs to transitioning to lines of code on a web page, I love combining the worlds of logic and creative 
+					design to make eye-catching, accessible, and user-friendly websites and applications. </p>
+
+					<p class="midParagraph">When I'm not coding on my spare time, you'll find me trying new foods, traveling to new places, attempting puzzles, 
+					binging shows and anime, working out or just playing games.</p>
+
+					<p>I'm excited to make the leap and continue refining my skills with the right company. Message me a line and/or your
+					favourite spot in Toronto in the contact form below.</p>	
+				</div> <!--End of About me-->
+				
+			</div> <!--End of Wrapper-->
+		</section> <!--End of About Section-->
+
+
+		<section class="skills"> <!--Start of Skills Section-->
+			<div class="wrapper"> <!--Start of Wrapper-->
+
+				<h2>Skills</h2>
+
+				<div class="iconSkills"> <!--Start of iconSkills-->
+					<ul> <!--Start of unordered list-->
+						
+						<li> <!--Start of HTML Icon-->
+							<i class="devicon-html5-plain-wordmark"></i>
+						</li> <!--End of HTML Icon-->
+
+						<li> <!--Start of CSS Icon-->
+							<i class="devicon-css3-plain-wordmark"></i>
+						</li> <!--End of CSS Icon-->
+
+						<li> <!--Start of SASS Icon-->
+							<i class="devicon-sass-original"></i>
+						</li> <!--End of SASS Icon-->
+
+						<li> <!--Start of JavaScript Icon-->
+							<i class="devicon-javascript-plain"></i>
+						</li> <!--End of JavaScript Icon-->
+
+						<li> <!--Start of jQuery Icon-->
+							<i class="devicon-jquery-plain-wordmark"></i>
+						</li> <!--End of jQuery Icon-->
+
+						<li> <!--Start of Node.JS Icon-->
+							<i class="devicon-nodejs-plain-wordmark"></i>
+						</li> <!--End of Node.JS Icon-->
+
+						<li> <!--Start of React Icon-->
+							<i class="devicon-react-original-wordmark"></i>
+						</li> <!--End of React Icon-->
+
+						<li> <!--Start of Git Icon-->
+							<i class="devicon-git-plain-wordmark"></i>
+						</li> <!--End of Git Icon-->
+
+						<li> <!--Start of Github Icon-->
+							<i class="devicon-github-original-wordmark"></i>
+						</li> <!--End of Github Icon-->
+
+						<li> <!--Start of Firebase Icon-->
+							<i class="devicon-firebase-plain-wordmark"></i>
+						</li> <!--End of Firebase Icon-->
+
+					</ul> <!--End of unordered list-->
+				</div><!--End of iconSkills-->
+				
+			</div>	<!--End of Wrapper-->
+		</section> <!--End of Skills Section-->
+
+
+		<section id="projects" class="projects"> <!--Start of Projects Section-->
+			<div class="wrapper"> <!--Start of Wrapper-->
+
+				<h2>Projects</h2>
+				
+				<ul class="projectList"> <!--Start of Project Lists-->
+
+					<li class="projectPokemon"> <!--Start of projectPokemon-->
+						<img src="./assests/laptop - Poke.png" alt="Image of laptop with Pokemon app created by the developer">
+
+						<article> <!--Start of Article-->
+
+							<h3>Pokemon Battle!</h3>
+							<p class="codeSkill">HTML | CSS | JAVASCRIPT | API</p>
+							<p>Prepare to have a Pokemon Battle in a rock, paper, scissors format! Using the Pokemon API.</p>
+
+							<div class="buttons"> <!-- Start of buttons-->
+								<button class="live">view live</button>
+								<button class="code">view code</button>
+							</div>	<!-- Start of buttons-->
+
+						</article> <!--Start of Article-->
+					</li><!--Start of projectPokemon-->
+
+				</ul><!--End of Project Lists-->
+				
+			</div> <!--End of Wrapper-->
+		</section> <!--End of Projects Section-->
+
+
+		<section id="contact" class="contact"> <!--Start of Contact Section-->
+			<div class="wrapper"> <!--Start of Wrapper-->
+
+				<h2>Get In Touch</h2>
+
+				<div class="contactIcons"> <!--Start of Contact Icons-->
+
+					<i class="devicon-linkedin-plain"></i>
+					<i class="devicon-github-original"></i>
+					<i class="devicon-twitter-original"></i>
+
+				</div> <!--End of Contact Icons-->
+
+				<p>You can send me an email here, just fill out the form below! </p>
+
+				<div class="form"> <!--Start of Form-->
+					<form action="https://formsubmit.co/farhandanishsiddiqi@gmail.com" method="POST"> <!--Start of Form-->
+
+						<!-- Start of Honeypot -->
+						<input type="text" name="_honey" style="display: none;">
+						<!-- End of Honeypot -->
+
+						<!-- Start of Disable Captcha -->
+						<input type="hidden" name="_captcha" value="false">
+						<!-- End of Disable Captcha -->
+
+						<!-- Start of Email Sent! -->
+						<input type="hidden" name="_next" value="https://farhandev.ca/email_sent.html">
+						<!-- End of Email Sent! -->
+
+						<label for="name">NAME</label>
+						<input type="text" id="name" name="userName">
+
+						<label for="email">EMAIL</label>
+						<input type="email" id="email" name="userEmail" >
+
+						<label for="message">MESSAGE</label>
+						<textarea id="message" name="userMessage" cols="30" rows="5"></textarea>
+
+						<button type="submit">Submit</button>
+
+					</form> <!--End of Form-->
+				</div> <!--End of Form-->
+
+			</div> <!--End of Wrapper-->
+		</section> <!--End of Contact Section-->
+	</main> <!--End Of Main-->
+
+
+
+	<footer> <!--Start Of Footer-->
+		<div class="wrapper"> <!--Start of Wrapper-->
+			<p>Built  in  2023  By  Farhan D. Siddiqi</p>
+		</div> <!--End of Wrapper-->
+	</footer> <!--End Of Footer-->
 </body>
 </html>

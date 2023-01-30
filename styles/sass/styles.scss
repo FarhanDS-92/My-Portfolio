@@ -1,0 +1,10 @@
+@use './partials/setup';
+@use './partials/variables' as *;
+@use './partials/baseStyles';
+@use './partials/headerStyle';
+@use './partials/aboutStyles';
+@use  './partials/skillsStyles';
+@use './partials/projectStyle';
+@use './partials/contactStyle';
+@use './partials/footerStyle';
+@use './partials/mediaQueries';
