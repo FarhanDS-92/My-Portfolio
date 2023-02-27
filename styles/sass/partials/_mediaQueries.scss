@@ -27,10 +27,6 @@
             h2 {
                 font-size: 2rem;
             }
-
-            p {
-                font-size: 0.8rem;
-            }
         }
     }
 
@@ -202,11 +198,6 @@
             height: 100px;
             width: 100px;
         }
-
-        .aboutMe p{
-            font-size: 0.6rem;
-            
-        }
     }
 
     .projects .wrapper ul .projectPokemon {
@@ -252,7 +243,7 @@
                 .heading {
     
                     h1 {
-                        font-size: 1.95rem;
+                        font-size: 1.75rem;
                     }
     
                     p {
@@ -266,8 +257,15 @@
             }
     }
 
-    .about .wrapper .aboutMe h2{
-        font-size: 1.95rem;
+    .about .wrapper .aboutMe {
+
+        h2{
+            font-size: 1.95rem;
+        }
+
+        p {
+            font-size: 0.8rem
+        }
     }
 
     .skills {
