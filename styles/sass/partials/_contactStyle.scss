@@ -2,7 +2,6 @@
 
 .contact {
     position: relative;
-    height: 650px;
     background-color: $secondaryColor;
 
     .wrapper {
@@ -73,6 +72,7 @@
 
                 button {
                     margin-top: 15px;
+                    margin-bottom: 15px;
                     align-self: center;
                 }
             }
